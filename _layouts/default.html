@@ -5,8 +5,11 @@
     <title>{{ page.title }}</title>
   </head>
   <body>
-    {{ content }}
+    <h1>Daniel Stahl Journal</h1>
 
-    <h1>Hello world</h1>
+
+    {% for posts in post %}
+    <h3> {{posts.title}} <h3>
+    	{%endfor%}
   </body>
 </html>
