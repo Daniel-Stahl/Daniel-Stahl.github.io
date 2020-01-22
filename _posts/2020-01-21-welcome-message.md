@@ -1,7 +1,8 @@
+---
 layout: post
 title:  "Welcome Message"
 date:   2020-01-21 20:57:41 -0800
-categories: 
+categories: first_post
 ---
 Welcome aboard and salutations!
 
