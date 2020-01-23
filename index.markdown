@@ -12,9 +12,17 @@ layout: default
 </div>
 
 <ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: '%B %d, %Y' }}
-    </li>
-  {% endfor %}
+	  {% for post in site.posts %}
+	    {% unless post.next %}
+	      <h3>{{ post.date | date: '%B' }}</h3>
+	    {% else %}
+	      {% capture year %}{{ post.date | date: '%Y %b' }}{% endcapture %}
+	      {% capture nyear %}{{ post.next.date | date: '%Y %b' }}{% endcapture %}
+	      {% if year != nyear %}
+	        <h3>{{ post.date | date: '%B' }}</h3>
+	      {% endif %}
+	    {% endunless %}
+
+	    <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: '%B %d, %Y' }}</li>
+	  {% endfor %}
 </ul>

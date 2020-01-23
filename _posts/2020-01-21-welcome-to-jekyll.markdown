@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2020-01-21 20:57:41 -0800
+date:   2020-01-21
 categories: jekyll update
 permalink: :title
 
