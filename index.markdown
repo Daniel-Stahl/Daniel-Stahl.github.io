@@ -3,7 +3,13 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+
 ---
+
+<div class="home-title">
+<h1>Computer Science Journal</h1>
+<p>belongs to Daniel Stahl</p>
+</div>
 
 <ul>
   {% for post in site.posts %}

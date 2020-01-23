@@ -1,0 +1,36 @@
+---
+
+---
+
+.home-title {
+	margin-top: 5%;
+}
+
+.home-title h1 {
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.home-title p {
+	font-style: italic;
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	margin-bottom: 1em;
+}
+
+.wrapper {
+	width: 65%;
+	margin: auto;
+}
+
+.post-wrapper {
+	margin-top: 5%;
+}
