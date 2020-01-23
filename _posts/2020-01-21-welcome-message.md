@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome Message"
-date:   2020-01-21 20:57:41 -0800
+date: 2020-01-21
 categories: first_post
 permalink: :title
 
