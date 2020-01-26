@@ -2,6 +2,11 @@
 
 ---
 
+body {
+	background-color: #EAE8DE;
+	color: #2F2B29;
+}
+
 .home-title {
 	margin-top: 5%;
 }
@@ -10,6 +15,7 @@
 	font-size: 50px;
 	font-weight: bold;
 	margin: 0;
+	color: ;
 }
 
 .home-title p {
@@ -26,6 +32,11 @@ li {
 	margin-bottom: 1em;
 }
 
+li a {
+	color: #F42711;
+	text-decoration: none;
+}
+
 .wrapper {
 	width: 65%;
 	margin: auto;
@@ -34,3 +45,4 @@ li {
 .post-wrapper {
 	margin-top: 5%;
 }
+
